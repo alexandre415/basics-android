@@ -8,10 +8,22 @@
 </head>
 <body>
     <h2>Encontre no Google</h2>
-    <form action="https://www.google.com/search">
+    <form action="https://www.google.com.br/search">
         <label for="q">O que deseja pesquisar?</label>
-        <input type="text" name="" id="">
+       <!-- <input type="text" name="q" id="q" placeholder="SpaceX" required> -->
+        <input type="number" name="q" id="q" placeholder="SpaceX" min="10" max="15"> 
+      <!--   <input type="email" name="q" id="q" placeholder="SpaceX"> -->
+
+        <input type="button" value="Enviar">
     </form>
+    <input list="browser"> 
+    <datalist id="browser">
+        <option value="Edge"></option>
+        <option value="FireFox"></option>
+        <option value="Opera"></option>
+        <option value="Chrome"></option>
+
+    </datalist>
     
 </body>
 </html>

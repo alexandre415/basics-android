@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro do Astronauta</title>
+</head>
+<body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form>
+        Nome: <input type="text" name="nome" id="nome">
+        <br><br>
+        Email: <input type="email" name="email" id="email"> Password: <input type="password" name="passwd" id="passwd">
+        <br><br>
+        Data de Nascimento: <input type="date" name="born" id="born">
+        Foto: <input type="file" name="pic" id="pic"><br>
+        <br>
+        <label for="nacional"> Nacionalidade: <select id="nacional" name="nacional">  
+            <option value="russo">Russo</option>
+            <option value="brasil">Brasileiro</option>
+            <option value="eua">Americano</option>
+            <option value="espanha">Espanhol</option>
+          </select> </label> - Genero: <input type="radio" id="masc" name="gender" value="Masculino">
+        
+        <label for="html">Masculino</label>
+        <input type="radio" id="fem" name="gender" value="Feminino">
+        <label for="css">Feminino</label><br>
+       Suas principais qualidades: <br>
+
+        <label for="vehicle1"> Inteligencia</label>
+        <input type="checkbox" id="inte" name="inte" value="Inteligencia">
+        
+        <label for="vehicle2">| Resiliência</label>
+        <input type="checkbox" id="resi" name="resi" value="Resiliência">
+        
+        <label for="vehicle3">| Preparo físico</label>
+        <input type="checkbox" id="prep" name="prep" value="Preparo">
+        
+        <label for="vehicle3">| Educação</label>
+        <input type="checkbox" id="edu" name="edu" value="educacao"> <br>
+        <div>
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="Porque você gostaria de ser um Astronauta?">
+         
+            </textarea><br>
+        </div>  
+        <input type="button" value="Enviar">
+    </form>
+    
+</body>
+</html>
