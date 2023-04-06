@@ -1,0 +1,21 @@
+li > a{ /* todo a que for um filho de li fará.. */
+
+    color: red;
+
+}
+
+h1 + h4{/* todo h4 q vier depois de um h1 fará isso...*/
+
+    border: 2px dashed;
+}
+
+a[href="http://google.com"]{
+
+    color: brown;
+}
+
+li:nth-of-type(2){ /*só altera a cor dos q estiver em 2º no li. Se colocar odd dentro do parenteses
+    ele só vai pegar os impares*/
+
+    color: purple;
+}

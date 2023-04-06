@@ -18,3 +18,11 @@ body{
     background-size: cover;
     
 }
+.moon{
+
+    color: blueviolet;
+}
+#europa_size{
+    font-size: 10px;
+    color: darkblue;
+}
